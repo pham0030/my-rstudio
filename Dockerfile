@@ -20,3 +20,18 @@ RUN apt-get update -qq && apt-get -y --no-install-recommends install \
 
 RUN install2.r --error --deps TRUE markdown
 RUN install2.r --error --deps TRUE devtools
+
+RUN apt-get -y --no-install-recommends install libxt-dev
+
+RUN install2.r --error --deps TRUE BAS
+RUN install2.r --error --deps TRUE BayesFactor
+RUN install2.r --error --deps TRUE knitr
+RUN install2.r --error --deps TRUE rjags
+RUN install2.r --error --deps TRUE coda
+RUN install2.r --error --deps TRUE latex2exp
+RUN install2.r --error --deps TRUE foreign
+RUN install2.r --error --deps TRUE BHH2
+RUN install2.r --error --deps TRUE scales
+RUN install2.r --error --deps TRUE logspline
+RUN install2.r --error --deps TRUE cowplot
+RUN install2.r --error --deps TRUE ggthemes
