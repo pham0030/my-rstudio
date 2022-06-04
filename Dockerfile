@@ -35,3 +35,6 @@ RUN install2.r --error --deps TRUE scales
 RUN install2.r --error --deps TRUE logspline
 RUN install2.r --error --deps TRUE cowplot
 RUN install2.r --error --deps TRUE ggthemes
+RUN install2.r --error --deps TRUE openintro
+RUN install2.r --error --deps TRUE infer
+RUN install2.r --error --deps TRUE lmPerm
