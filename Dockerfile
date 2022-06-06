@@ -38,3 +38,4 @@ RUN install2.r --error --deps TRUE ggthemes
 RUN install2.r --error --deps TRUE openintro
 RUN install2.r --error --deps TRUE infer
 RUN install2.r --error --deps TRUE lmPerm
+RUN install2.r --error --deps TRUE skimr
